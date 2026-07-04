@@ -3,12 +3,12 @@
   <head>
     <title>BOOKZ</title>
   </head>
-  <body>
+  <body style="text-align:center;">
     <style>
       body {
         margin: 0;
         padding: 0;
-        background-color:white;
+        background-color: black;
       }
 
       h1, h2, h3, h4, h5, p {
@@ -19,6 +19,8 @@
       button {
         background-color: black;
         color: white;
+        cursor: pointer;
+        padding: 10px 20px;
       }
 
       ul {
@@ -50,8 +52,8 @@
       }
     </style>
     <ul>
-      <li><a class="active" href="">Home</a></li>
-      <li><a href="">Settings</a></li>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#settings">Settings</a></li>
     </ul>
     <h1 style="text-align:center;">BOOKZ</h1>
     <p>The book website everyone needs!</p>
@@ -59,16 +61,16 @@
     <p>We get our books through you submitting them.</p>
     <p>Click the "PUBLISH A BOOK" button to get your books on BOOKZ!</p>
     <div style="text-align:center;">
-      <button onclick="document.location=''">ORIGINALS</button>
+      <button onclick="document.location='#originals'">ORIGINALS</button>
     </div>
     <div style="text-align:center;">
-      <button onclick="document.location=''">AUTHORS</button>
+      <button onclick="document.location='#authors'">AUTHORS</button>
     </div>
     <div style="text-align:center;">
-    <button onclick="document.location=''">KIDS & FAN-MADE</button>
+      <button onclick="document.location='#kids'">KIDS & FAN-MADE</button>
     </div>
     <div style="text-align:center;">
-    <button onclick="document.location='https://docs.google.com/forms/d/e/1FAIpQLSfF8iRean9MIHAF9dlHbUOx_bS4_8LtD-fyBtLv2HjBWEtmZA/viewform'">PUBLISH A BOOK</button>
+      <button onclick="document.location='https://docs.google.com/forms/d/e/1FAIpQLSfF8iRean9MIHAF9dlHbUOx_bS4_8LtD-fyBtLv2HjBWEtmZA/viewform'">PUBLISH A BOOK</button>
     </div>
   </body>
 </html>
